@@ -1,0 +1,69 @@
+
+body {
+  font-family: 'Poiret One', cursive;
+  margin: 0px;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-image: url("../images/succulent.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 0px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  padding-top: 230px;
+  margin-top: 0px;
+}
+
+header a {
+  text-decoration: none;
+  color: #E90D64;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #DCD9DC;
+}
+
+header a:hover {
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: gray;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  border-color: #107B82;
+  border-width: thick;
+  border-style: double;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.main-container {
+  height: 700px;
+}
+
+
+/*font-family: 'Pacifico', cursive;*/
