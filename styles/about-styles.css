@@ -12,3 +12,13 @@ header {
 nav {
   border-color: #870EBB;
 }
+
+.photo-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-me li {
+  font-size: 2em;
+  padding: 20px;
+}

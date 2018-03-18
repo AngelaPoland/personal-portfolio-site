@@ -13,6 +13,20 @@ nav {
   border-color: red;
 }
 
+.ada-education h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4em;
+}
+
+.ada-education p {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+  font-size: 2em;
+}
+
+
 .project-container {
   display: flex;
   flex-direction: column;
@@ -45,4 +59,6 @@ nav {
 
 .project-container h2 {
   text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
