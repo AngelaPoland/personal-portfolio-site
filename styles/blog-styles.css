@@ -13,3 +13,25 @@ header {
 nav {
   border-color: #B08F49;
 }
+
+
+.blog-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  border: 2px dotted #A2FAC7;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 600px;
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.single-post p {
+  margin: 5vh;
+}
+
+.blog-header p {
+  font-family: 'Pacifico', cursive;
+}

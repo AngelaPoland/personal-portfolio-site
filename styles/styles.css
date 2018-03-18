@@ -61,9 +61,136 @@ nav {
   font-weight: bold;
 }
 
+.nav-links a:hover {
+  color: #BEF64D;
+  font-weight: bolder;
+}
+
 .main-container {
   height: 700px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 2vh;
+
 }
+
+.main-container img {
+  height: 400px;
+  border-radius: 50%;
+  border-color: #E90D64;
+  border-width: thick;
+  border-style: double;
+}
+
+.main-container h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+
+.stuff {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "a b"
+  "c d";
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  grid-gap: 5em;
+
+}
+
+.stuff a{
+  color: black;
+  text-decoration: none;
+}
+
+.a {
+  grid-area: a;
+  text-align: center;
+  border: solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 15%;
+  background-color: #F1FEFD;
+  font-weight: bold;
+  border-style: double;
+}
+
+.b {
+  grid-area: b;
+  text-align: center;
+  border: solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 15%;
+  background-color: #F1FEFD;
+  font-weight: bold;
+  border-style: double;
+}
+
+.c {
+  grid-area: c;
+  text-align: center;
+  border: solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 15%;
+  background-color: #F1FEFD;
+  font-weight: bold;
+  border-style: double;
+}
+
+.d {
+  grid-area: d;
+  text-align: center;
+  border: solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 15%;
+  background-color: #F1FEFD;
+  font-weight: bold;
+  border-style: double;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid darkgray;
+  justify-content: center;
+  padding: 40px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer {
+  text-decoration: none;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
 
 
 /*font-family: 'Pacifico', cursive;*/
