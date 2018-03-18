@@ -1,0 +1,15 @@
+
+
+header {
+  color: white;
+  text-align: center;
+  background-image: url("../images/pinklake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 0px;
+}
+
+nav {
+  border-color: #B08F49;
+}
